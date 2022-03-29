@@ -2,7 +2,8 @@ body{
     margin: 0; /* tar bort marginen från hemsidan*/
 }
 
-ul{
+nav > ul{
+    list-style: none; /* tar bort punkterna från listan*/
 
     display: grid; /* gör så att man kan se griden*/
 
@@ -15,26 +16,50 @@ ul{
 
     padding: 0;
     margin: 0;
- }
-
-nav > ul{
-    list-style: none; /* tar bort punkterna från listan*/
 
 }
 
-a > li{
+a{
+    text-decoration: none;
+
+    color: black;
+
+    background-color: rgb(140, 194, 41);
+}
+
+a:hover{
+    background-color: rgb(104, 143, 32);
+}
+
+ul > div{
+    background-color: black;
+}
+
+ li > p{
+    font-size: 2em;
     margin: auto;
     width: 50%;
     text-align: center;
     padding-top: calc(6vh - 0.5em);
 }
 
-a{
-    text-decoration: none;
+footer{
 
-    background-color: rgb(140, 194, 41);
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh;
+
+    position: absolute;
+
+    bottom: 0;
+
+    background-color: gray;
+
+    min-width: 100%;
 }
 
-ul > div{
-    background-color: black;
+footer > p{
+    text-align: center;
+    width: auto;
 }
