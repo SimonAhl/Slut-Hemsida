@@ -8,11 +8,13 @@ ul{
 
 
     /* beskriver griden*/
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 15vh;
+    grid-template-columns: 20fr 1fr 20fr 1fr 20fr;
+    grid-template-rows: 12vh;
 
     background-color: gray; /* bakgrundsfärgen fär headern*/
 
+    padding: 0;
+    margin: 0;
  }
 
 nav > ul{
@@ -20,18 +22,19 @@ nav > ul{
 
 }
 
-ul > li{
-    
-    float: left;
-    margin-left: 15vw;
+a > li{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding-top: calc(6vh - 0.5em);
 }
 
-.header1{
-    grid-column: 1;
-    grid-row: 1;
+a{
+    text-decoration: none;
+
+    background-color: rgb(140, 194, 41);
 }
 
-.header2{
-    grid-column: 2;
-    grid-row: 1;
+ul > div{
+    background-color: black;
 }
