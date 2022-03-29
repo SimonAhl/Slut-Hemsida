@@ -8,7 +8,7 @@ ul{
 
 
     /* beskriver griden*/
-    grid-template-columns: 20fr 1fr 20fr 1fr 20fr;
+    grid-template-columns: 30fr 1fr 30fr 1fr 30fr;
     grid-template-rows: 12vh;
 
     background-color: gray; /* bakgrundsfärgen fär headern*/
