@@ -1,65 +1,83 @@
 body{
     margin: 0; /* tar bort marginen från hemsidan*/
+
+    background-color: rgb(152, 175, 199);
 }
 
-nav > ul{
+nav  ul{
     list-style: none; /* tar bort punkterna från listan*/
 
     display: grid; /* gör så att man kan se griden*/
 
 
     /* beskriver griden*/
-    grid-template-columns: 30fr 1fr 30fr 1fr 30fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 12vh;
+    grid-gap: 2vw;
 
-    background-color: gray; /* bakgrundsfärgen fär headern*/
-
+    /*tar bort all padding och margin som läggs automatiskt på ul*/
     padding: 0;
     margin: 0;
 
-}
-
-a{
-    text-decoration: none;
-
-    color: black;
-
-    background-color: rgb(140, 194, 41);
-}
-
-a:hover{
-    background-color: rgb(104, 143, 32);
-}
-
-ul > div{
     background-color: black;
 }
 
- li > p{
-    font-size: 2em;
+nav li{
+    background-color: rgb(140, 194, 41);
+}
+
+nav p{
     margin: auto;
     width: 50%;
     text-align: center;
     padding-top: calc(6vh - 0.5em);
+
+    font-size: 2em;
+}
+
+nav li:hover{
+    background-color: rgb(113, 155, 35);
+}
+
+nav a{
+    /*tar bort linjen under länken*/
+    text-decoration: none;
+
+    /*gör a taggarna svarta*/
+    color: black;
 }
 
 footer{
 
+    /*beskriver griden i footern*/
+
     display: grid;
 
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh;
+    grid-template-rows: 8vh;
 
+
+    /*sätter footern längst ner*/
     position: absolute;
 
     bottom: 0;
 
-    background-color: gray;
+    /*sätter färgen på footern*/
+    background-color: rgb(182, 67, 67);
 
+    /*ser till att footern alltid har en min storlek*/
     min-width: 100%;
 }
 
 footer > p{
+
+    /*sätter texten i mitten av footern*/
     text-align: center;
     width: auto;
+
+    /*ökar textens storlek*/
+    font-size: 2em;
+}
+
+@media screen and (max-width: 600px) {
 }
