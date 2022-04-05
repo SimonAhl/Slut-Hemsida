@@ -75,6 +75,15 @@ footer > p{
     text-align: center;
     width: auto;
 
+    margin: 0;
+
     /*ökar textens storlek*/
     font-size: 2em;
+}
+
+@media screen and (max-width: 1200px) {
+    nav p{
+        font-size: 1em;
+    }
+    
 }
