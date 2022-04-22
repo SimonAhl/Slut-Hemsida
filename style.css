@@ -1,7 +1,12 @@
 body{
     margin: 0; /* tar bort marginen från hemsidan*/
 
-    background-color: rgb(152, 175, 199);
+    background-color: rgb(152, 175, 199); /*bakgrundsfärgen*/
+}
+
+body > div{
+
+    padding-left: 2px; /*lägger all text, bilder och övrigt som finns på sidan lite ut höger för att göra det mer läsbart*/
 }
 
 nav  ul{
@@ -78,7 +83,7 @@ footer > p{
     margin: 0;
 
     /*ökar textens storlek*/
-    font-size: 2em;
+    font-size: 7ex;
 }
 
 @media screen and (max-width: 1200px) {

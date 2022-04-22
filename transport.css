@@ -1,3 +1,3 @@
-ul:nth-child(even){
+ul:nth-of-type(even){
     list-style: none;
 }
