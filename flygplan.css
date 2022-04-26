@@ -1,0 +1,20 @@
+table, td, th{
+
+    text-align: left;
+
+    font-size: 1.3rem;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    padding-right: 10pt;
+    padding-left: 1pt;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+caption{
+    margin-top: 15px;
+}

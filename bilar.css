@@ -2,6 +2,10 @@ dl{
    font-weight: bold;
 }
 
+dd{
+   padding-bottom: 10px;
+}
+
 .bold{
    font-weight:bolder;
    font-size: 2rem;
