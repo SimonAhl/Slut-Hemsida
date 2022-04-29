@@ -20,6 +20,11 @@ tr:nth-child(odd){
     background-color: hsla(240, 95%, 25%, 1);
 }
 
+tr:nth-child(even){
+    color: green;
+    background-color: hsla(0, 100%, 0%, 1);
+}
+
 caption{
     margin-top: 15px;
 }
