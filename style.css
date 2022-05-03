@@ -85,7 +85,8 @@ footer > p{
     /*ökar textens storlek*/
     font-size: 7ex;
 }
-
+ 
+/*Minksar header texten när skärmen är mindre*/
 @media screen and (max-width: 1200px) {
     nav p{
         font-size: 1em;

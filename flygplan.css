@@ -1,8 +1,25 @@
+/*Gör runda hörn i tabellen*/
+th:first-of-type {
+    border-top-left-radius: 10px;
+  }
+  th:last-of-type {
+    border-top-right-radius: 10px;
+  }
+  tr:last-of-type td:first-of-type {
+    border-bottom-left-radius: 10px;
+  }
+  tr:last-of-type td:last-of-type {
+    border-bottom-right-radius: 10px;
+  }
+
+
 table, td, th{
 
     text-align: left;
-
+    
     font-size: 1.3rem;
+
+    /*Ser till att tabellen blir lite större runt texten*/
     padding-top: 10pt;
     padding-bottom: 10pt;
     padding-right: 10pt;
@@ -10,11 +27,10 @@ table, td, th{
 
     margin-left: auto;
     margin-right: auto;
-
-    border: 1px solid black;
     border-collapse: collapse;
 }
 
+/*Zebra striping*/
 tr:nth-child(odd){
     color: red;
     background-color: hsla(240, 95%, 25%, 1);
