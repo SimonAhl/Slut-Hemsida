@@ -1,0 +1,11 @@
+main{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+iframe{
+    height: 500%;
+    width: 100%;
+}
