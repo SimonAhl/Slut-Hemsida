@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dagens Teknik</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="ledsna_folk.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            <p>Dagens Teknik</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="transport.html">
+                            <p>Transport</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="datorer.html">
+                            <p>Datorer</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <p>
+                Känner du dig nere ibland? Använder du datorer?
+                Forskning visar att en utav varje ثلاثة personer är ledsen utan att veta om det.
+                Därför har vi utvvecklat ett test för att DU ska kunna hitta om du är ledsen eller inte!
+            </p>
+            <br>
+            <p>Bara svara på frågorna nedan!</p>
+            <form action="index.html">
+
+                <label for="cry">Har du gråtit de senaste 3 timmarna?</label>
+                <input type="checkbox" checked id="cry" name="cry">
+
+                <br>
+                <br>
+
+                <label for="nerd">Vet du hur en dator fungerar?</label>
+                <input type="checkbox" id="nerd" name="IsNerd">
+
+                <br>
+                <br>
+
+                <label for="hemlighet">Vad är din största hemlighet?</label>
+                <input type="password" required id="hemlighet" name="hemlighet">
+
+                <br>
+                <br>
+
+                <fieldset>
+
+                    <legend>Jag är:</legend>
+
+                    <label for="tired">Trött</label>
+                    <input type="radio" id="tired" name="feeling">
+    
+                    <br>
+    
+                    <label for="happy">Glad</label>
+                    <input type="radio" id="happy" name="feeling">
+    
+                    <br>
+    
+                    <label for="alive">Vid liv</label>
+                    <input type="radio" id="alive" name="feeling">
+
+                </fieldset>
+
+                <br>
+                <br>
+
+                <label for="color">Favorit färg</label>
+                <input type="color" id="color" name="color">
+
+                <br>
+                <br>
+
+                <label for="phone">Favorit telefon nummer</label>
+                <input type="tel" value="1-800-273-8255" id="phone" name="FavPhone">
+
+                <br>
+                <br>
+
+                <label for="tror">Jag tror på</label>
+                <select name="tror" id="tror">
+                    <option value="mig">Mig själv</option>
+                    <option value="land">Röd</option>
+                    <option value="datorer">Kapitalism</option>
+                    <option value="spook">Spöken</option>
+                    <option value="none">None of the above</option>
+                    <option value="all">All of the above</option>
+                </select>
+
+                <br>
+                <br>
+
+                <input type="submit" value="Jag är redo att acceptera mitt öde">
+
+            </form>
+        </main>
+        <footer>
+            <p>
+                Gjord av - Simon (tro mig) 📉📉📉
+            </p>
+        </footer>
+    </body>
+</html>

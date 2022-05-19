@@ -85,6 +85,26 @@ footer > p{
     /*ökar textens storlek*/
     font-size: 7ex;
 }
+
+a:link{
+    color: rgb(40, 40, 170);
+}
+
+a:visited{
+    color: rgb(48, 9, 99);
+}
+
+a:focus{
+    color: rgb(46, 106, 236);
+}
+
+a:hover{
+    color: rgb(4, 41, 255);
+}
+
+a:active{
+    color: rgb(192, 15, 30);
+}
  
 /*Minksar header texten när skärmen är mindre*/
 @media screen and (max-width: 1200px) {

@@ -6,6 +6,10 @@ main{
 }
 
 iframe{
-    height: 500%;
+    height: 100%;
     width: 100%;
+}
+
+ol li{
+    padding-top: 1.5em;
 }
