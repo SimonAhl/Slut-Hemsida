@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
 body{
     margin: 0; /* tar bort marginen från hemsidan*/
 
     background-color: rgb(152, 175, 199); /*bakgrundsfärgen*/
+
+    font-family: 'Grape Nuts';
 }
 
 main{
@@ -30,7 +34,7 @@ nav  ul{
 nav li{
     background-color: rgb(140, 194, 41);
 }
-
+    /*Lägger nav-länkarna i mitten av lådorna*/
 nav p{
     margin: auto;
     width: 50%;
