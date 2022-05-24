@@ -1,3 +1,6 @@
-video{
+video[controls]{
     height: 200px;
+
+    /*roterar bilden*/
+    transform: rotate(0.37turn);
 }

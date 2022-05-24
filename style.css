@@ -1,3 +1,5 @@
+/*Lägger till font facen Grape Nuts*/
+
 @font-face {
     font-family: 'Grape Nuts';
     src: url(https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap);
@@ -38,6 +40,10 @@ nav  ul{
 
 nav li{
     background-color: rgb(140, 194, 41);
+    
+    /*Gör så att det tar 0.3 sekunder för li att ändra färg*/
+
+    transition: background-color 0.3s;
 }
     /*Lägger nav-länkarna i mitten av lådorna*/
 nav p{
@@ -50,7 +56,7 @@ nav p{
 }
 
 nav li:hover{
-    background-color: rgb(113, 155, 35);
+    background-color: #719b23;
 }
 
 nav a{

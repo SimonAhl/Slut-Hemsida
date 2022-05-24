@@ -1,11 +1,14 @@
 main{
     display: grid;
 
+    /*Trespaltslayout*/
+
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
 }
 
 iframe{
+    /*Lägger youtube videon i hela gridden*/
     height: 100%;
     width: 100%;
 }

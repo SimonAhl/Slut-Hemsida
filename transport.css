@@ -1,3 +1,5 @@
+/*Gör så att varanan av ul:arna ör utan prickar*/
+/*Jag gör det för att den ena ul:en är en vanlig lista och den andra är en lokal meny*/
 ul:nth-of-type(even){
     list-style: none;
 }

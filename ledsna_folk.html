@@ -9,8 +9,8 @@
         <link rel="stylesheet" href="ledsna_folk.css">
     </head>
     <body>
-        <header>
-            <nav>
+        <header role="banner">
+            <nav role="navigation">
                 <ul>
                     <li>
                         <a href="index.html">
@@ -30,7 +30,7 @@
                 </ul>
             </nav>
         </header>
-        <main>
+        <main role="main">
             <h1>Ledsna folk</h1>
             <p>
                 Känner du dig nere ibland? Använder du datorer?
@@ -39,25 +39,33 @@
             </p>
             <br>
             <p>Bara svara på frågorna nedan!</p>
-            <form action="index.html" method="POST">
+            <form action="index.html" method="POST" id="pad">
 
-                <label for="cry">Har du gråtit de senaste 3 timmarna?</label>
-                <input type="checkbox" checked id="cry" name="cry">
+                <div>
+                    <label for="cry">Har du gråtit de senaste 3 timmarna?</label>
+                    <input type="checkbox" checked id="cry" name="cry">
+                </div>
 
-                <br>
-                <br>
+                <div>
+                    <label for="nerd">Vet du hur en dator fungerar?</label>
+                    <input type="checkbox" id="nerd" name="IsNerd">
+               </div>
 
-                <label for="nerd">Vet du hur en dator fungerar?</label>
-                <input type="checkbox" id="nerd" name="IsNerd">
+                <div>
+                    <label for="hemlighet">Vad är din största hemlighet?</label>
+                    <input type="password" required id="hemlighet" name="hemlighet">
+                </div>
 
-                <br>
-                <br>
+                <div>
+                    <label for="testamentet">Skriv så mycket du kan av det gamla testamentet:</label>
+                </div>
+                
+                <div>
+                    <textarea name="testamentet" id="testamentet" cols="30" rows="10"></textarea>
+                </div>
 
-                <label for="hemlighet">Vad är din största hemlighet?</label>
-                <input type="password" required id="hemlighet" name="hemlighet">
-
-                <br>
-                <br>
+                <label for="??">Var det allt?</label>
+                <input type="text" id="??" name="??">
 
                 <fieldset>
 
@@ -66,51 +74,44 @@
                     <label for="tired">Trött</label>
                     <input type="radio" id="tired" name="feeling">
     
-                    <br>
     
                     <label for="happy">Glad</label>
                     <input type="radio" id="happy" name="feeling">
     
-                    <br>
     
                     <label for="alive">Vid liv</label>
                     <input type="radio" id="alive" name="feeling">
 
                 </fieldset>
 
-                <br>
-                <br>
 
-                <label for="color">Favorit färg</label>
-                <input type="color" id="color" name="color">
+                <div>
+                    <label for="color">Favorit färg</label>
+                    <input type="color" id="color" name="color">
+                </div>
 
-                <br>
-                <br>
+                <div>
+                    <label for="phone">Favorit telefon nummer</label>
+                    <input type="tel" value="1-800-273-8255" id="phone" name="FavPhone">
+                </div>
 
-                <label for="phone">Favorit telefon nummer</label>
-                <input type="tel" value="1-800-273-8255" id="phone" name="FavPhone">
-
-                <br>
-                <br>
-
-                <label for="tror">Jag tror på</label>
-                <select name="tror" id="tror">
-                    <option value="mig">Mig själv</option>
-                    <option value="land">Röd</option>
-                    <option value="datorer">Kapitalism</option>
-                    <option value="spook">Spöken</option>
-                    <option value="none">None of the above</option>
-                    <option value="all">All of the above</option>
-                </select>
-
-                <br>
-                <br>
+                <div>
+                    <label for="tror">Jag tror på</label>
+                    <select name="tror" id="tror">
+                        <option value="mig" selected>Mig själv</option>
+                        <option value="land">Röd</option>
+                        <option value="datorer">Kapitalism</option>
+                        <option value="spook">Spöken</option>
+                        <option value="none">None of the above</option>
+                        <option value="all">All of the above</option>
+                    </select>
+                </div>
 
                 <input type="submit" value="Jag är redo att acceptera mitt öde">
 
             </form>
         </main>
-        <footer>
+        <footer role="contentinfo">
             <p>
                 Gjord av - Simon (tro mig) 📉📉📉
             </p>
