@@ -72,7 +72,7 @@ footer{
     bottom: 0;
 
     /*sätter färgen på footern*/
-    background-color: rgb(182, 67, 67);
+    background-color: hsl(0, 42%, 49%);
 
     /*ser till att footern alltid har en min storlek*/
     min-width: 100%;
